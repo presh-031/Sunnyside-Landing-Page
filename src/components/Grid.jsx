@@ -6,14 +6,14 @@ import orangeImage from "../images/mobile/image-photography.jpg";
 const Grid = () => {
   return (
     <section>
-      <div>
-        <div className="border-4 text-center border-red-900">
-          <p className=" font-fraunces text-2xl  ">Transform your brand</p>
-          <p>
-            We are a full-service creative agency speciaalizing in helping brands grow fast. Engage your clients through
+      <div className="flex flex-col-reverse">
+        <div className=" text-center ">
+          <p className=" font-fraunces text-3xl  mt-12 mb-8 w-3/4 border mx-auto">Transform your brand</p>
+          <p className="font-barlow w-4/5 mx-auto mb-6">
+            We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through
             compelling visuals that do most of the marketing for you.
           </p>
-          <p>LEARN MORE</p>
+          <p className="mb-10 font-fraunces">LEARN MORE</p>
         </div>
         <div>
           <img src={eggImage} alt="" />
