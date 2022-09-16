@@ -1,34 +1,30 @@
-import heroImg from "../images/mobile/image-header.jpg";
 import hamburgerMenu from "../images/icon-hamburger.svg";
 import arrowDown from "../images/icon-arrow-down.svg";
 
+import "./Hero.css";
+
 const Hero = () => {
   return (
-    <div
-      className="border border-red-800 h-[30rem] bg-no-repeat bg-cover  w-full"
-      style={{
-        backgroundImage: `url(${heroImg})`,
-      }}
-    >
-      <header className=" border flex justify-between items-center px-4 py-6">
+    <div className="hero h-[35rem] w-full border border-red-800 bg-cover  bg-no-repeat">
+      <header className=" flex items-center justify-between border px-4 py-6">
         <div>
-          <p className=" text-white font-barlow text-lg">sunnyside</p>
+          <p className=" font-barlow text-lg text-white">sunnyside</p>
         </div>
         <nav>
-          <ul className="hidden">
+          <ul className="mr-6 hidden items-center gap-12 border text-white sm:flex">
             <li>About</li>
             <li>Services</li>
             <li>Projects</li>
-            <li>Contact</li>
+            <li className="rounded-full bg-white py-2 px-6 text-black">Contact</li>
           </ul>
-          <div>
+          <div className="sm:hidden">
             <img src={hamburgerMenu} alt="menu" />
           </div>
         </nav>
       </header>
-      <div className="border mt-14 text-center">
-        <p className=" tracking-widest font-fraunces text-white  text-4xl border border-red-900 ">WE ARE CREATIVES</p>
-        <img className="border mx-auto mt-16" src={arrowDown} alt="" />
+      <div className="mt-20 border text-center">
+        <p className=" border border-red-900 font-fraunces  text-4xl tracking-widest text-white ">WE ARE CREATIVES</p>
+        <img className="mx-auto mt-16 border" src={arrowDown} alt="" />
       </div>
     </div>
   );
