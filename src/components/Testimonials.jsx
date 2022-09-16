@@ -29,9 +29,7 @@ const Testimonials = () => {
         <div className="mt-12 border">
           <img className="w-12 rounded-full mx-auto" src={jennie} alt="" />
           <p className="w-[80%] mx-auto mt-6 mb-8">
-            Incredible end result! Our sales increased over 400% when we worked with Sunnyside.
-            <br />
-            Highly recommended!
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
           </p>
           <p className="font-fraunces mb-2">Jennie F.</p>
           <p>Business Owner</p>

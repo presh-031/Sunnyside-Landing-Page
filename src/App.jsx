@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import Grid from "./components/Grid";
 import Testimonials from "./components/Testimonials";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Grid />
       <Testimonials />
       <Gallery />
+      <Footer />
     </div>
   );
 }
