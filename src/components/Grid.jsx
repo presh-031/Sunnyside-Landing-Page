@@ -6,16 +6,18 @@ import orangeImage from "../images/mobile/image-photography.jpg";
 const Grid = () => {
   return (
     <section>
-      <div className="flex flex-col-reverse">
-        <div className="text-center">
-          <p className=" font-fraunces text-3xl  mt-12 mb-8 w-3/4 border mx-auto">Transform your brand</p>
-          <p className="font-barlow w-4/5 mx-auto mb-6">
+      <div className="flex flex-col-reverse  sm:flex-row ">
+        <div className=" border border-red-500 text-center sm:flex  sm:w-[50%] sm:flex-col sm:justify-center  sm:pl-36  sm:text-left ">
+          <p className=" mx-auto mt-12 mb-8  w-3/4 border font-fraunces text-3xl sm:mx-0 sm:w-[50%]">
+            Transform your brand
+          </p>
+          <p className="mx-auto mb-6 w-4/5 font-barlow sm:mx-0 sm:mb-8 sm:w-[72%]">
             We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through
             compelling visuals that do most of the marketing for you.
           </p>
-          <p className="mb-10 font-fraunces">LEARN MORE</p>
+          <p className="mb-10 font-fraunces sm:font-black">LEARN MORE</p>
         </div>
-        <div>
+        <div className="sm:w-[50%]">
           <img src={eggImage} alt="" />
         </div>
       </div>
@@ -24,8 +26,8 @@ const Grid = () => {
           <img src={cupImage} alt="" />
         </div>
         <div className=" text-center ">
-          <p className=" font-fraunces text-3xl  mt-12 mb-8 w-3/4 border mx-auto">Stand out to the right audience</p>
-          <p className="font-barlow w-4/5 mx-auto mb-6">
+          <p className=" mx-auto mt-12  mb-8 w-3/4 border font-fraunces text-3xl">Stand out to the right audience</p>
+          <p className="mx-auto mb-6 w-4/5 font-barlow">
             Using a collaborative formula of designers, researchers, photographers , videographers, and copywriters,
             we'll build and extend your brand in digital places.{" "}
           </p>
@@ -34,21 +36,21 @@ const Grid = () => {
       </div>
       <div>
         <div
-          className="bg-no-repeat bg-cover  w-full h-[35rem] flex flex-col justify-end text-center"
+          className="flex h-[35rem]  w-full flex-col justify-end bg-cover bg-no-repeat text-center"
           style={{ backgroundImage: `url(${appleImage})` }}
         >
-          <p className="font-fraunces text-2xl mb-8">Graphic Design</p>
-          <p className="mb-8 font-barlow w-[92%] mx-auto border">
+          <p className="mb-8 font-fraunces text-2xl">Graphic Design</p>
+          <p className="mx-auto mb-8 w-[92%] border font-barlow">
             Great design makes you memorable. We deliver artwork that underscores your brand message and captures
             potential clients' attention.
           </p>
         </div>
         <div
-          className="bg-no-repeat bg-cover  w-full h-[35rem] flex flex-col justify-end text-center"
+          className="flex h-[35rem]  w-full flex-col justify-end bg-cover bg-no-repeat text-center"
           style={{ backgroundImage: `url(${orangeImage})` }}
         >
-          <p className="font-fraunces text-2xl mb-8">Photography</p>
-          <p className="mb-8 font-barlow w-[92%] mx-auto border">
+          <p className="mb-8 font-fraunces text-2xl">Photography</p>
+          <p className="mx-auto mb-8 w-[92%] border font-barlow">
             Increase your credibility by getting the most stunning, high-quality photos that improves your business
             image.
           </p>
