@@ -1,7 +1,11 @@
+import Hero from "./components/Hero";
+import Grid from "./components/Grid";
+
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div>
+      <Hero />
+      <Grid />
     </div>
   );
 }
