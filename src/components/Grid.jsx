@@ -7,7 +7,7 @@ const Grid = () => {
   return (
     <section>
       <div className="flex flex-col-reverse">
-        <div className=" text-center ">
+        <div className="text-center">
           <p className=" font-fraunces text-3xl  mt-12 mb-8 w-3/4 border mx-auto">Transform your brand</p>
           <p className="font-barlow w-4/5 mx-auto mb-6">
             We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through
@@ -23,17 +23,23 @@ const Grid = () => {
         <div>
           <img src={cupImage} alt="" />
         </div>
-        <div>
-          <p>Stand out to the right audience</p>
-          <p>
+        <div className=" text-center ">
+          <p className=" font-fraunces text-3xl  mt-12 mb-8 w-3/4 border mx-auto">Stand out to the right audience</p>
+          <p className="font-barlow w-4/5 mx-auto mb-6">
             Using a collaborative formula of designers, researchers, photographers , videographers, and copywriters,
             we'll build and extend your brand in digital places.{" "}
           </p>
-          <p>LEARN MORE</p>
+          <p className="mb-10 font-fraunces">LEARN MORE</p>
         </div>
       </div>
       <div>
-        <div style={{ backgroundImage: `url(${appleImage})` }}></div>
+        <div className="bg-no-repeat bg-cover  w-full h-[30rem]" style={{ backgroundImage: `url(${appleImage})` }}>
+          <p>Graphic Design</p>
+          <p>
+            Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+            potential clients' attention.
+          </p>
+        </div>
         <div style={{ backgroundImage: `url(${orangeImage})` }}></div>
       </div>
     </section>
