@@ -33,14 +33,26 @@ const Grid = () => {
         </div>
       </div>
       <div>
-        <div className="bg-no-repeat bg-cover  w-full h-[30rem]" style={{ backgroundImage: `url(${appleImage})` }}>
-          <p>Graphic Design</p>
-          <p>
+        <div
+          className="bg-no-repeat bg-cover  w-full h-[35rem] flex flex-col justify-end text-center"
+          style={{ backgroundImage: `url(${appleImage})` }}
+        >
+          <p className="font-fraunces text-2xl mb-8">Graphic Design</p>
+          <p className="mb-8 font-barlow w-[92%] mx-auto border">
             Great design makes you memorable. We deliver artwork that underscores your brand message and captures
             potential clients' attention.
           </p>
         </div>
-        <div style={{ backgroundImage: `url(${orangeImage})` }}></div>
+        <div
+          className="bg-no-repeat bg-cover  w-full h-[35rem] flex flex-col justify-end text-center"
+          style={{ backgroundImage: `url(${orangeImage})` }}
+        >
+          <p className="font-fraunces text-2xl mb-8">Photography</p>
+          <p className="mb-8 font-barlow w-[92%] mx-auto border">
+            Increase your credibility by getting the most stunning, high-quality photos that improves your business
+            image.
+          </p>
+        </div>
       </div>
     </section>
   );
