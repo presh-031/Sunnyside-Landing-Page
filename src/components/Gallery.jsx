@@ -5,7 +5,7 @@ import sugarCubes from "../images/mobile/image-gallery-sugar-cubes.jpg";
 
 const Gallery = () => {
   return (
-    <section className="grid grid-cols-2 mt-24">
+    <section className=" grid grid-cols-2 mt-24">
       <div>
         <img src={milkBottles} alt="" />
       </div>

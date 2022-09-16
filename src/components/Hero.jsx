@@ -4,7 +4,12 @@ import arrowDown from "../images/icon-arrow-down.svg";
 
 const Hero = () => {
   return (
-    <div className="h-[30rem] bg-no-repeat bg-cover  w-full" style={{ backgroundImage: `url(${heroImg})` }}>
+    <div
+      className="border border-red-800 h-[30rem] bg-no-repeat bg-cover  w-full"
+      style={{
+        backgroundImage: `url(${heroImg})`,
+      }}
+    >
       <header className=" border flex justify-between items-center px-4 py-6">
         <div>
           <p className=" text-white font-barlow text-lg">sunnyside</p>
@@ -21,7 +26,7 @@ const Hero = () => {
           </div>
         </nav>
       </header>
-      <div className="border mt-16 text-center">
+      <div className="border mt-14 text-center">
         <p className=" tracking-widest font-fraunces text-white  text-4xl border border-red-900 ">WE ARE CREATIVES</p>
         <img className="border mx-auto mt-16" src={arrowDown} alt="" />
       </div>

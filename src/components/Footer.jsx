@@ -6,13 +6,13 @@ import pinterest from "../images/icon-pinterest.svg";
 const Footer = () => {
   return (
     <div className="bg-darkmoderatecyan">
-      <p className="py-8 text-center font-barlow border text-2xl">sunnyside</p>
+      <p className="py-8 text-center font-barlow  text-2xl">sunnyside</p>
       <ul className="flex justify-around">
         <li>About</li>
         <li>Services</li>
         <li>Projects</li>
       </ul>
-      <div className="border flex justify-center gap-y-2">
+      <div className="mt-20 pb-16   flex justify-center gap-6">
         <div>
           <img src={facebook} alt="" />
         </div>
