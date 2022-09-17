@@ -12,7 +12,7 @@ const Footer = () => {
         <li>Services</li>
         <li>Projects</li>
       </ul>
-      <div className="mt-20 pb-16   flex justify-center gap-6">
+      <div className="mt-20 flex   justify-center gap-6 pb-16">
         <div>
           <img src={facebook} alt="" />
         </div>
@@ -26,6 +26,7 @@ const Footer = () => {
           <img src={pinterest} alt="" />
         </div>
       </div>
+      {/* Attribution */}
     </div>
   );
 };

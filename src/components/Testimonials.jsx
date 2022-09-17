@@ -5,33 +5,33 @@ import jennie from "../images/image-jennie.jpg";
 const Testimonials = () => {
   return (
     <section className="text-center">
-      <p className="mt-12 font-fraunces">CLIENT TESTIMONIALS</p>
+      <p className="mt-12 font-fraunces  sm:mt-24">CLIENT TESTIMONIALS</p>
       {/* flex */}
-      <div className=" border">
+      <div className=" border sm:mx-auto sm:flex sm:w-3/4">
         <div className="mt-12 border">
-          <img className="w-12 rounded-full mx-auto" src={emily} alt="" />
-          <p className="w-[80%] mx-auto mt-6 mb-8">
+          <img className="mx-auto w-12 rounded-full sm:w-16" src={emily} alt="" />
+          <p className="mx-auto mt-6 mb-8 w-[80%] sm:w-[90%]">
             We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always
             hit.
           </p>
-          <p className="font-fraunces mb-2">Emily R.</p>
+          <p className="mb-2 font-fraunces">Emily R.</p>
           <p>Marketing Director</p>
         </div>
         <div className="mt-12 border">
-          <img className="w-12 rounded-full mx-auto" src={thomas} alt="" />
-          <p className="w-[80%] mx-auto mt-6 mb-8">
+          <img className="mx-auto w-12 rounded-full sm:w-16" src={thomas} alt="" />
+          <p className="mx-auto mt-6 mb-8 w-[80%] sm:w-[80%]">
             Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and
             enjoyable experience.
           </p>
-          <p className="font-fraunces mb-2">Thomas S.</p>
+          <p className="mb-2 font-fraunces">Thomas S.</p>
           <p>Chief Operating Officer</p>
         </div>
         <div className="mt-12 border">
-          <img className="w-12 rounded-full mx-auto" src={jennie} alt="" />
-          <p className="w-[80%] mx-auto mt-6 mb-8">
+          <img className="mx-auto w-12 rounded-full sm:w-16" src={jennie} alt="" />
+          <p className="mx-auto mt-6 mb-8 w-[80%] sm:w-[95%]">
             Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
           </p>
-          <p className="font-fraunces mb-2">Jennie F.</p>
+          <p className="mb-2 font-fraunces">Jennie F.</p>
           <p>Business Owner</p>
         </div>
       </div>

@@ -21,26 +21,28 @@ const Grid = () => {
           <img src={eggImage} alt="" />
         </div>
       </div>
-      <div>
-        <div>
+      <div className="sm:flex">
+        <div className="sm:w-[50%]">
           <img src={cupImage} alt="" />
         </div>
-        <div className=" text-center ">
-          <p className=" mx-auto mt-12  mb-8 w-3/4 border font-fraunces text-3xl">Stand out to the right audience</p>
-          <p className="mx-auto mb-6 w-4/5 font-barlow">
-            Using a collaborative formula of designers, researchers, photographers , videographers, and copywriters,
-            we'll build and extend your brand in digital places.{" "}
+        <div className=" text-center sm:flex  sm:w-[50%] sm:flex-col sm:justify-center  sm:pl-36  sm:text-left ">
+          <p className=" mx-auto mt-12  mb-8 w-3/4 border font-fraunces text-3xl sm:mx-0 sm:w-[50%]">
+            Stand out to the right audience
           </p>
-          <p className="mb-10 font-fraunces">LEARN MORE</p>
+          <p className="mx-auto mb-6 w-4/5 font-barlow sm:mx-0 sm:mb-8 sm:w-[72%]">
+            Using a collaborative formula of designers, researchers, photographers , videographers, and copywriters,
+            we'll build and extend your brand in digital places.
+          </p>
+          <p className="mb-10 font-fraunces sm:font-black">LEARN MORE</p>
         </div>
       </div>
-      <div>
+      <div className="sm:flex">
         <div
           className="flex h-[35rem]  w-full flex-col justify-end bg-cover bg-no-repeat text-center"
           style={{ backgroundImage: `url(${appleImage})` }}
         >
-          <p className="mb-8 font-fraunces text-2xl">Graphic Design</p>
-          <p className="mx-auto mb-8 w-[92%] border font-barlow">
+          <p className="mb-8 font-fraunces text-2xl ">Graphic Design</p>
+          <p className="mx-auto mb-8 w-[92%] border font-barlow sm:w-1/2">
             Great design makes you memorable. We deliver artwork that underscores your brand message and captures
             potential clients' attention.
           </p>
@@ -49,8 +51,8 @@ const Grid = () => {
           className="flex h-[35rem]  w-full flex-col justify-end bg-cover bg-no-repeat text-center"
           style={{ backgroundImage: `url(${orangeImage})` }}
         >
-          <p className="mb-8 font-fraunces text-2xl">Photography</p>
-          <p className="mx-auto mb-8 w-[92%] border font-barlow">
+          <p className="mb-8 font-fraunces text-2xl ">Photography</p>
+          <p className="mx-auto mb-8 w-[92%] border font-barlow sm:w-1/2">
             Increase your credibility by getting the most stunning, high-quality photos that improves your business
             image.
           </p>
