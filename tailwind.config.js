@@ -20,6 +20,12 @@ module.exports = {
         barlow: ["Barlow", "sans-serif"],
         fraunces: ["Fraunces", "serif"],
       },
+      backgroundImage: (theme) => ({
+        "hero-image-mobile": "url('../images/mobile/image-header.jpg')",
+        "hero-image-desktop": "url('../images/desktop/image-header.jpg')",
+        "orange-image": "url('../images/mobile/image-photography.jpg')",
+        "apple-image": "url('../images/mobile/image-graphic-design.jpg')"
+      }),
     },
   },
   plugins: [],

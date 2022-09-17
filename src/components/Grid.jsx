@@ -1,7 +1,5 @@
 import eggImage from "../images/mobile/image-transform.jpg";
 import cupImage from "../images/mobile/image-stand-out.jpg";
-import appleImage from "../images/mobile/image-graphic-design.jpg";
-import orangeImage from "../images/mobile/image-photography.jpg";
 
 const Grid = () => {
   return (
@@ -37,20 +35,14 @@ const Grid = () => {
         </div>
       </div>
       <div className="md:flex">
-        <div
-          className="flex h-[35rem]  w-full flex-col justify-end bg-cover bg-no-repeat text-center"
-          style={{ backgroundImage: `url(${appleImage})` }}
-        >
+        <div className="flex h-[35rem]  w-full flex-col justify-end bg-cover bg-no-repeat text-center">
           <p className="mb-8 font-fraunces text-2xl ">Graphic Design</p>
           <p className="mx-auto mb-8 w-[92%] border font-barlow md:w-1/2">
             Great design makes you memorable. We deliver artwork that underscores your brand message and captures
             potential clients' attention.
           </p>
         </div>
-        <div
-          className="flex h-[35rem]  w-full flex-col justify-end bg-cover bg-no-repeat text-center"
-          style={{ backgroundImage: `url(${orangeImage})` }}
-        >
+        <div className="flex h-[35rem]  w-full flex-col justify-end bg-cover bg-no-repeat text-center">
           <p className="mb-8 font-fraunces text-2xl ">Photography</p>
           <p className="mx-auto mb-8 w-[92%] border font-barlow md:w-1/2">
             Increase your credibility by getting the most stunning, high-quality photos that improves your business
