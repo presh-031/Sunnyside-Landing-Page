@@ -30,6 +30,11 @@ module.exports = {
         "orange-image-desktop": "url('../src/images/desktop/image-photography.jpg')",
         "apple-image-desktop": "url('../src/images/desktop/image-graphic-design.jpg')",
       }),
+      screens: {
+        "very-tiny": "100px",
+        small: "300px",
+        // => @media (min-width: 640px) { ... }
+      },
     },
   },
   plugins: [],
