@@ -6,8 +6,8 @@ import pinterest from "../images/icon-pinterest.svg";
 const Footer = () => {
   return (
     <div className="bg-darkmoderatecyan">
-      <p className="py-8 text-center font-barlow  text-2xl">sunnyside</p>
-      <ul className="flex justify-around">
+      <p className="py-8 text-center font-barlow  text-2xl md:text-3xl">sunnyside</p>
+      <ul className="flex justify-around md:justify-center md:gap-8">
         <li>About</li>
         <li>Services</li>
         <li>Projects</li>
