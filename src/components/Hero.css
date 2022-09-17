@@ -1,9 +1,0 @@
-.hero {
-  background-image: url("../images/mobile/image-header.jpg");
-}
-@media (min-width: 768px) {
-  .hero {
-    background-image: url("../images/desktop/image-header.jpg");
-    background-position: center;
-  }
-}

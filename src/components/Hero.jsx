@@ -1,11 +1,9 @@
 import hamburgerMenu from "../images/icon-hamburger.svg";
 import arrowDown from "../images/icon-arrow-down.svg";
 
-import "./Hero.css";
-
 const Hero = () => {
   return (
-    <div className="hero h-[35rem] w-full border border-red-800 bg-cover bg-no-repeat  md:h-[50rem]">
+    <div className="h-[35rem] w-full border border-red-800 bg-hero-image-mobile bg-cover bg-no-repeat md:h-[50rem]  md:bg-hero-image-desktop">
       <header className=" flex items-center justify-between border px-4 py-6">
         <div>
           <p className=" font-barlow text-lg text-white md:text-2xl">sunnyside</p>

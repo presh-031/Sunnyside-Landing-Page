@@ -21,10 +21,14 @@ module.exports = {
         fraunces: ["Fraunces", "serif"],
       },
       backgroundImage: (theme) => ({
-        "hero-image-mobile": "url('../images/mobile/image-header.jpg')",
-        "hero-image-desktop": "url('../images/desktop/image-header.jpg')",
-        "orange-image": "url('../images/mobile/image-photography.jpg')",
-        "apple-image": "url('../images/mobile/image-graphic-design.jpg')"
+        // mobile
+        "hero-image-mobile": "url('../src/images/mobile/image-header.jpg')",
+        "orange-image-mobile": "url('../src/images/mobile/image-photography.jpg')",
+        "apple-image-mobile": "url('../src/images/mobile/image-graphic-design.jpg')",
+        // desktop
+        "hero-image-desktop": "url('../src/images/desktop/image-header.jpg')",
+        "orange-image-desktop": "url('../src/images/desktop/image-photography.jpg')",
+        "apple-image-desktop": "url('../src/images/desktop/image-graphic-design.jpg')",
       }),
     },
   },
