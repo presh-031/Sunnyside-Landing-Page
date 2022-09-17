@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="mx-auto max-w-[1440px]">
       <Hero />
       <Grid />
       <Testimonials />

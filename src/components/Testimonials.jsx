@@ -7,7 +7,7 @@ const Testimonials = () => {
     <section className="text-center">
       <p className="mt-12 font-fraunces  md:mt-24">CLIENT TESTIMONIALS</p>
       {/* flex */}
-      <div className=" border md:mx-auto md:flex md:w-3/4">
+      <div className=" border md:mx-auto md:flex md:w-3/4 md:justify-center">
         <div className="mt-12 border">
           <img className="mx-auto w-12 rounded-full md:w-16" src={emily} alt="" />
           <p className="mx-auto mt-6 mb-8 max-w-[19rem] md:w-[90%]">
