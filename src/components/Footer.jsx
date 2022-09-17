@@ -12,7 +12,7 @@ const Footer = () => {
         <li>Services</li>
         <li>Projects</li>
       </ul>
-      <div className="mt-20 flex   justify-center gap-6 pb-16 very-tiny:flex-col very-tiny:items-center">
+      <div className="mt-20 flex justify-center  gap-6 pb-16 very-tiny:flex-col very-tiny:items-center small:flex-row">
         <div>
           <img src={facebook} alt="" />
         </div>

@@ -1,27 +1,31 @@
-import eggImage from "../images/mobile/image-transform.jpg";
-import cupImage from "../images/mobile/image-stand-out.jpg";
+import eggImageMobile from "../images/mobile/image-transform.jpg";
+import cupImageMobile from "../images/mobile/image-stand-out.jpg";
+import eggImageDesktop from "../images/desktop/image-transform.jpg";
+import cupImageDesktop from "../images/desktop/image-stand-out.jpg";
 
 const Grid = () => {
   return (
     <section>
       <div className="flex flex-col-reverse  md:flex-row ">
         <div className=" border border-red-500 text-center md:flex  md:w-[50%] md:flex-col md:justify-center  md:pl-36  md:text-left ">
-          <p className="mx-auto mt-12 mb-8 max-w-[16rem] break-words  border font-fraunces text-3xl md:mx-0 md:w-[50%]">
+          <p className="mx-auto mt-12 mb-8  max-w-[16rem]  break-words border font-fraunces text-3xl  md:mx-0 md:w-[50%]">
             Transform your brand
           </p>
-          <p className="mx-auto mb-6 max-w-[18rem] font-barlow md:mx-0 md:mb-8 md:w-[72%]">
+          <p className="mx-auto mb-6 max-w-[18rem] border-2 border-red-800 font-barlow  md:mx-0 md:mb-8 md:w-[72%]">
             We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through
             compelling visuals that do most of the marketing for you.
           </p>
           <p className="mb-10 font-fraunces md:font-black">LEARN MORE</p>
         </div>
         <div className="md:w-[50%]">
-          <img src={eggImage} alt="" />
+          <img className="sm:hidden" src={eggImageMobile} alt="" />
+          <img className="hidden w-[100%] sm:block" src={eggImageDesktop} alt="" />
         </div>
       </div>
       <div className="md:flex">
         <div className="md:w-[50%]">
-          <img src={cupImage} alt="" />
+          <img className="sm:hidden" src={cupImageMobile} alt="" />
+          <img className="hidden w-[100%] sm:block" src={cupImageDesktop} alt="" />
         </div>
         <div className=" text-center md:flex  md:w-[50%] md:flex-col md:justify-center  md:pl-36  md:text-left ">
           <p className=" mx-auto mt-12  mb-8 max-w-[16rem] border font-fraunces text-3xl md:mx-0 md:w-[50%]">

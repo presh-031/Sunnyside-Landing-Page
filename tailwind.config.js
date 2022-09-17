@@ -32,8 +32,9 @@ module.exports = {
       }),
       screens: {
         "very-tiny": "100px",
+        // => @media (min-width: 100px) { ... }
         small: "300px",
-        // => @media (min-width: 640px) { ... }
+        // => @media (min-width: 300px) { ... }
       },
     },
   },
